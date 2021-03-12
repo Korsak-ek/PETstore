@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "519e7e78-7f85-4bde-8dfc-ea32ee7d7495",
+		"name": "PetStore",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://petstore.swagger.io/v2/pet",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "file",
+					"file": {
+						"src": "H0e_Cxzsu/response_1615565468863.json"
+					}
+				},
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/pet",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://petstore.swagger.io/v2/pet",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "file",
+					"file": {
+						"src": "7XYq32dia/response_1615566715734.json"
+					}
+				},
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/pet",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"pet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://petstore.swagger.io/v2/pet/8",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "file",
+					"file": {
+						"src": "mj6C5DMWt/response_1615567120142.json"
+					}
+				},
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/pet/8",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"pet",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://petstore.swagger.io/v2/pet/8",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "file",
+					"file": {
+						"src": "12-AZYuZI/response_1615567516906.json"
+					}
+				},
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/pet/8",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"pet",
+						"8"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
